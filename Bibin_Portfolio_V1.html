@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bibin Varghese Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:Inter,Arial,sans-serif;
+background:#ffffff;
+color:#111827;
+}
+.container{max-width:1200px;margin:auto;padding:30px;}
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+border-bottom:1px solid #e5e7eb;
+}
+.logo{font-size:30px;font-weight:800;}
+.logo span{color:#0ea5e9;}
+.menu{display:flex;gap:30px;color:#64748b;}
+
+.hero{
+padding:80px 0 50px 0;
+}
+.hero h1{
+font-size:64px;
+line-height:1.1;
+margin-bottom:15px;
+}
+.hero p{
+font-size:20px;
+color:#64748b;
+max-width:750px;
+line-height:1.8;
+}
+
+.section-title{
+font-size:32px;
+margin:40px 0 20px;
+}
+
+.project-card{
+display:grid;
+grid-template-columns: 1.2fr 1fr;
+gap:40px;
+background:#fff;
+border:1px solid #e5e7eb;
+border-radius:24px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.project-card img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.project-content{
+padding:40px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.project-content h3{
+font-size:36px;
+margin-bottom:15px;
+}
+
+.project-content p{
+color:#64748b;
+line-height:1.8;
+margin-bottom:20px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 16px;
+background:#f1f5f9;
+border-radius:999px;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:14px 24px;
+background:#0ea5e9;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+.footer{
+margin-top:80px;
+padding:30px 0;
+border-top:1px solid #e5e7eb;
+text-align:center;
+color:#64748b;
+}
+
+@media(max-width:900px){
+.project-card{grid-template-columns:1fr;}
+.hero h1{font-size:42px;}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<nav>
+<div class="logo"><span>BE</span>BINEX</div>
+<div class="menu">
+<div>Projects</div>
+<div>About</div>
+<div>Contact</div>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Power BI Developer<br>Portfolio</h1>
+<p>
+Showcasing business intelligence dashboards, analytics solutions,
+wireframes, and data visualization projects.
+</p>
+</section>
+
+<h2 class="section-title">Featured Project</h2>
+
+<div class="project-card">
+
+<div>
+<img src="insurance-ageing-thumbnail.png" alt="Insurance Ageing Dashboard">
+</div>
+
+<div class="project-content">
+<h3>Insurance Ageing Dashboard</h3>
+
+<p>
+An executive Power BI dashboard designed for insurance receivables analysis,
+overdue tracking, critical client monitoring, premium collection performance,
+and ageing segmentation.
+</p>
+
+<div>
+<span class="tag">Power BI</span>
+<span class="tag">Insurance</span>
+<span class="tag">Analytics</span>
+<span class="tag">Dashboard Design</span>
+</div>
+
+<a class="button" href="#">View Dashboard</a>
+
+</div>
+</div>
+
+<div class="footer">
+© 2026 Bibin Varghese Portfolio
+</div>
+
+</div>
+
+</body>
+</html>
